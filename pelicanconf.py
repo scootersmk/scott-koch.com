@@ -24,7 +24,7 @@ LOAD_CONTENT_CACHE = False
 
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = False
-#MENUITEMS = 
+MENUITEMS = (('Blog', 'blog.html'),)
 USE_FOLDER_AS_CATEGORY = True
 DEFAULT_CATEGORY = 'misc'
 
@@ -53,6 +53,7 @@ INDEX_SAVE_AS = 'blog.html'
 
 STATIC_PATHS = ['images', 'extra/robots.txt', 'extra/favicon.ico']
 EXTRA_PATH_METADATA = {
+    'extra/CNAME': {'path': 'CNAME'},
     'extra/robots.txt': {'path': 'robots.txt'},
     'extra/favicon.ico': {'path': 'favicon.ico'}
 }
