@@ -24,7 +24,7 @@ LOAD_CONTENT_CACHE = False
 
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = False
-MENUITEMS = (('Blog', 'blog.html'),)
+MENUITEMS = (('Blog', '/blog.html'),)
 USE_FOLDER_AS_CATEGORY = True
 DEFAULT_CATEGORY = 'misc'
 
