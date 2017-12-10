@@ -51,7 +51,7 @@ DISPLAY_CATEGORY_IN_BREADCRUMBS = True
 
 INDEX_SAVE_AS = 'blog.html'
 
-STATIC_PATHS = ['images', 'extra/robots.txt', 'extra/favicon.ico']
+STATIC_PATHS = ['images', 'extra/CNAME', 'extra/robots.txt', 'extra/favicon.ico']
 EXTRA_PATH_METADATA = {
     'extra/CNAME': {'path': 'CNAME'},
     'extra/robots.txt': {'path': 'robots.txt'},
