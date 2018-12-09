@@ -1,4 +1,4 @@
-Title: Using the Strace Rule for quicker troubleshooting and debugging of problems on Linux
+Title: Using the Strace Rule for quicker troubleshooting on Linux
 Date: 2018-12-01 11:00
 Category: Sysadmin
 
