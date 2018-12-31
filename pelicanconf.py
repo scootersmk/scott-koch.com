@@ -9,7 +9,7 @@ SITEURL = 'http://www.scott-koch.com'
 PATH = 'content'
 
 TIMEZONE = 'America/New_York'
-THEME = 'pelican-bootstrap3'
+THEME = '/Users/koch/Git/pelican-themes/pelican-bootstrap3'
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
 DEFAULT_LANG = u'en'
@@ -41,7 +41,7 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-PLUGIN_PATHS = ["plugins", "/home/koch/Git/pelican-plugins"]
+PLUGIN_PATHS = ["plugins", "/Users/koch/Git/pelican-plugins"]
 PLUGINS = ['i18n_subsites']
 BOOTSTRAP_THEME = 'yeti'
 BOOTSTRAP_NAVBAR_INVERSE = True
