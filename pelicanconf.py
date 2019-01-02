@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Scott M. Koch'
 SITENAME = u'Scott Koch'
-SITEURL = 'http://www.scott-koch.com'
+SITEURL = 'https://www.scott-koch.com'
 
 PATH = 'content'
 
@@ -15,11 +15,11 @@ JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
+#FEED_ALL_ATOM = None
+#CATEGORY_FEED_ATOM = None
+#TRANSLATION_FEED_ATOM = None
+#AUTHOR_FEED_ATOM = None
+#AUTHOR_FEED_RSS = None
 LOAD_CONTENT_CACHE = False
 
 DISPLAY_PAGES_ON_MENU = True
